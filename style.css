@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #181818;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+.produto {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #030303;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#carrinho {
+    margin-top: 20px;
+}
+
+#cart {
+    list-style-type: none;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#carrinho {
+    margin-top: 20px;
+}
+
+#cart {
+    list-style-type: none;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center; /* Centraliza os itens no menu */
+    transition: transform 0.5s ease; /* Animação do movimento */
+}
+
+.menu li {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para o efeito de vai e vem */
+.move {
+    transform: translateX(-10px); /* Mover para a esquerda */
+}
+.produto {
+    text-align: center; /* Centraliza o conteúdo dentro de cada produto */
+}
+
+.produto img {
+    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline; /* Faz os itens da lista ficarem lado a lado */
+    margin-right: 20px;
+}
+
+.tabcontent {
+    display: none; /* Esconde todos os conteúdos das abas por padrão */
+}
+
+.tabcontent.active {
+    display: block; /* Mostra apenas o conteúdo da aba ativa */
+}
+#sobre {
+    text-align: center; /* Centraliza o texto dentro da seção */
+    margin: 20px; /* Adiciona espaço ao redor da seção */
+}
+
+.sobre-imagem {
+    max-width: 100%; /* Faz a imagem responsiva */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 20px 0; /* Adiciona espaço acima e abaixo da imagem */
+}
+
+.sobre-texto {
+    max-width: 600px; /* Define uma largura máxima para o texto */
+    margin: 20px auto 0; /* Centraliza o texto horizontalmente */
+    line-height: 1.5; /* Aumenta o espaçamento entre as linhas */
+    font-size: 1em; /* Ajusta o tamanho da fonte em relação à largura da tela */
+}
+
