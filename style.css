@@ -141,6 +141,10 @@ section {
     heigth: 350px;
     overflow-y: scroll;
 }
+.box {
+    width: 25%
+     heigth: 200px   
+   }     
 
 button {
     padding: 10px;
