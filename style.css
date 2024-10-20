@@ -138,6 +138,8 @@ section {
     text-align: center;
     display: inline-block;
     width: 200px;
+    heigth: 450px;
+    overflow-y: scroll;
 }
 
 button {
